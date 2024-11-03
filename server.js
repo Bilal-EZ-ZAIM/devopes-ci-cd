@@ -5,11 +5,11 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
   res.json({ message: "Welcome to the API!" });
 });
 
-app.get("/api/login", (req, res) => {
+app.get("/login", (req, res) => {
   res.json({ message: "Welcome to the API! login" });
 });
 
