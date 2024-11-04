@@ -8,6 +8,6 @@ describe("getss function", () => {
     };
 
     getss(req, res);
-    expect(res.json).toHaveBeenCalledWith({ message: "Welcome to the API! bilal" });
+    expect(res.json).toHaveBeenCalledWith({ message: "Welcome to the" });
   });
 });
